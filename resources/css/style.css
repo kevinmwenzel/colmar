@@ -45,4 +45,6 @@ nav li {
     text-align: center;
     padding: 8px;
     width: 100%;
+    color: white;
+    background-color: dimgray;
 }
