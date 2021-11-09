@@ -5,7 +5,6 @@
 
 header {
     display: inline-flex;
-    margin: auto 24px;
     height: 64px;
     justify-content: space-between;
     width: 100%; 
@@ -14,10 +13,15 @@ header {
 #logo img {
     height: 32px;
     vertical-align: middle;
+    padding-left: 24px;
 }
 
 #colmar {
     font-weight: bold;
+}
+
+nav ul {
+    padding-right: 24px;
 }
 
 nav li {
