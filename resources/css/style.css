@@ -1,0 +1,25 @@
+* {
+    background-color: white;
+}
+
+header {
+    display: inline-flex;
+    margin: auto 24px;
+    height: 64px;
+    justify-content: space-between;
+    width: 100%; 
+}
+
+#logo img {
+    height: 32px;
+    vertical-align: middle;
+}
+
+#colmar {
+    font-weight: bold;
+}
+
+nav li {
+    display: inline-block;
+    margin-left: 16px;
+}
