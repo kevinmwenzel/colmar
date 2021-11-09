@@ -1,5 +1,4 @@
 * {
-    background-color: white;
     font-family: sans-serif;
 }
 
@@ -27,4 +26,17 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 16px;
+}
+
+#learn {
+    display: flex;
+    background-color: lightgray;
+    align-items: center;
+    padding: 32px 24px;
+}
+
+#learn img {
+    float: left;
+    width: 60%;
+    padding-right: 24px;
 }
