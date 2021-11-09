@@ -40,3 +40,9 @@ nav li {
     width: 60%;
     padding-right: 24px;
 }
+
+#learn button {
+    text-align: center;
+    padding: 8px;
+    width: 100%;
+}
