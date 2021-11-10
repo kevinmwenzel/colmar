@@ -80,6 +80,8 @@ nav li {
 .callout {
     border-bottom: 1px solid gray;
     overflow: hidden;
+    display: flex;
+    align-items: center;
 }
 
 .callout img {
