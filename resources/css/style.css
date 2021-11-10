@@ -68,6 +68,10 @@ nav li {
     width: -webkit-fill-available;
 }
 
+#caption {
+    padding-top: 2rem;
+}
+
 #practiceleft {
     border-right: 1px solid gray;
     width: 60%;
