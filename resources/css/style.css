@@ -6,6 +6,10 @@ html {
     font-size: 16px;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
 header {
     display: inline-flex;
     height: 4rem;
@@ -59,12 +63,14 @@ nav li {
 }
 
 #reading {
-    width: 60%;
     padding-bottom: 2rem;
+    padding-right: 1.5rem;
+    width: -webkit-fill-available;
 }
 
 #practiceleft {
     border-right: 1px solid gray;
+    width: 60%;
 }
 
 #practiceright {
@@ -72,7 +78,8 @@ nav li {
 }
 
 .callout {
-    padding: 1rem;
+    border-bottom: 1px solid gray;
+    overflow: hidden;
 }
 
 .callout img {
@@ -80,4 +87,5 @@ nav li {
     width: 35%;
     float: left;
     clear: both;
+    padding: 1rem;
 }
