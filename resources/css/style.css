@@ -2,17 +2,21 @@
     font-family: sans-serif;
 }
 
+html {
+    font-size: 16px;
+}
+
 header {
     display: inline-flex;
-    height: 64px;
+    height: 4rem;
     justify-content: space-between;
     width: 100%; 
 }
 
 #logo img {
-    height: 32px;
+    height: 2rem;
     vertical-align: middle;
-    padding-left: 24px;
+    padding-left: 1.5rem;
 }
 
 #colmar {
@@ -20,31 +24,60 @@ header {
 }
 
 nav ul {
-    padding-right: 24px;
+    padding-right: 1.5rem;
 }
 
 nav li {
     display: inline-block;
-    margin-left: 16px;
+    margin-left: 1rem;
 }
 
 #learn {
     display: flex;
     background-color: lightgray;
     align-items: center;
-    padding: 32px 24px;
+    padding: 2rem 1.5rem;
 }
 
 #learn img {
     float: left;
     width: 60%;
-    padding-right: 24px;
+    padding-right: 1.5rem;
 }
 
 #learn button {
     text-align: center;
-    padding: 8px;
+    padding: 0.5rem;
     width: 100%;
     color: white;
     background-color: dimgray;
+}
+
+#practice {
+    display: flex;
+    padding: 2rem 1.5rem;
+}
+
+#reading {
+    width: 60%;
+    padding-bottom: 2rem;
+}
+
+#practiceleft {
+    border-right: 1px solid gray;
+}
+
+#practiceright {
+    width: 40%;
+}
+
+.callout {
+    padding: 1rem;
+}
+
+.callout img {
+    height: auto;
+    width: 35%;
+    float: left;
+    clear: both;
 }
