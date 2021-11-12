@@ -114,22 +114,21 @@ nav li {
 
 #start {
     background-color: lightgray;
-    padding: 2rem 2.5rem;
-    /* max-width: 100%; */
+    padding: 2rem 3.5rem;
 }
 
 #start h1 {
     text-align: center;
-    margin-bottom: 2rem;
 }
 
 #container {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .module {
-    margin: 2rem;
-    display: inline-block;
+    margin: 1rem;
+    background-color: white;
 }
 
 .module img {
