@@ -125,15 +125,18 @@ nav li {
 #container {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
 }
 
 .module {
     margin: 1rem;
     background-color: white;
+    flex-basis: 350px;
 }
 
 .module img {
     height: auto;
+    width: 100%;
 }
 
 .moduletext {
