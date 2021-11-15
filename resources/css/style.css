@@ -84,6 +84,26 @@ nav li {
     background-color: dimgray;
 }
 
+@media only screen and (max-width: 491px) {
+    #learn {
+        display: block;
+        padding: 0;
+    }
+
+    #learn img {
+        width: 100%;
+        float: none;
+    }
+
+    #learn div {
+        padding: 2rem 1rem;
+    }
+
+    #learn h3 {
+        padding: 2rem 0 1.5rem;
+    }
+}
+
 #practice {
     display: flex;
     padding: 2rem 1.5rem;
