@@ -37,6 +37,28 @@ nav li {
     margin-left: 1rem;
 }
 
+@media only screen and (max-width: 638px) {
+    #colmar, #academy {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 491px) {
+    #mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 491px) {
+    #desktop {
+        display: none;
+    }
+
+    header {
+        justify-content: space-around;
+    }
+}
+
 #learn {
     display: flex;
     background-color: lightgray;
