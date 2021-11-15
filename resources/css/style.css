@@ -57,6 +57,10 @@ nav li {
     header {
         justify-content: space-around;
     }
+
+    #mobile img {
+        display: inline-block;
+    }
 }
 
 #learn {
