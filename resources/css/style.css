@@ -264,11 +264,16 @@ nav li {
 @media only screen and (max-width: 491px) {
     #start {
         background-color: white;
+        border-bottom: 1px solid lightgray;
     }
 
     .module {
         background-color: lightgray;
         margin: 0 0 0.5rem;
+    }
+
+    .moduletext {
+        padding: 1rem;
     }
 
     .module img, .moduletext p {
