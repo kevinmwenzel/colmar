@@ -291,6 +291,10 @@ nav li {
     margin-bottom: 2rem;
 }
 
+#plural {
+    display: none;
+}
+
 #thesiscontainer {
     display: flex;
 }
@@ -327,6 +331,29 @@ video {
 
 .first {
     background-color: lightgray;
+}
+
+@media only screen and (max-width: 491px) {
+    #thesis {
+        padding: 2rem 0 1.5rem;
+    }
+
+    #thesis h1 {
+        margin-bottom: 1rem;
+    }
+
+    #plural {
+        display: inline;
+    }
+
+    #thesisleft {
+        width: 100%;
+        padding: 0;
+    }
+
+    #thesisleft h4, #thesisleft p, #thesisright {
+        display: none;
+    }
 }
 
 footer {
