@@ -199,6 +199,10 @@ nav li {
         display: block;
     }
 
+    .top, .middle {
+        padding-bottom: 3rem;
+    }
+
     .top img {
         padding-top: 1rem;
     }
@@ -209,6 +213,8 @@ nav li {
 
     .featured {
         background-color: white;
+        padding-bottom: 2rem;
+        border-bottom: 1px solid lightgray;
     }
 
     #our {
@@ -251,7 +257,7 @@ nav li {
     padding: 1rem 1rem 1.5rem;
 }
 
-.moduletext h4, p {
+.moduletext h4, .moduletext p {
     padding-bottom: 0.5rem;
 }
 
