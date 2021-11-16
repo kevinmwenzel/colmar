@@ -147,6 +147,10 @@ nav li {
     padding: 1rem;
 }
 
+.rectangle {
+    display: none;
+}
+
 .top img {
     padding-top: 0;
 }
@@ -178,9 +182,17 @@ nav li {
     }
 
     .callout img {
-        width: 100%;
+        width: -webkit-fill-available;
         float: none;
         clear: none;
+    }
+
+    .square {
+        display: none;
+    }
+
+    .rectangle {
+        display: block;
     }
 
     .top img {
@@ -189,6 +201,10 @@ nav li {
 
     .calltext {
         padding-left: 2rem;
+    }
+
+    .featured {
+        background-color: white;
     }
 }
 
