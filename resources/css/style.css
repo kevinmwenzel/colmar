@@ -159,6 +159,16 @@ nav li {
     margin-top: 0.5rem;
 }
 
+@media only screen and (max-width: 491px) {
+    #practiceleft {
+        display: none;
+    }
+
+    #practiceright {
+        width: 100%;
+    }
+}
+
 #start {
     background-color: lightgray;
     padding: 2rem 3.5rem;
