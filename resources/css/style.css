@@ -167,6 +167,23 @@ nav li {
     #practiceright {
         width: 100%;
     }
+
+    .callout {
+        display: block;
+        border-bottom: none;
+    }
+
+    .callout img {
+        width: 100%;
+    }
+
+    .top img {
+        padding-top: 1rem;
+    }
+
+    .calltext {
+        padding-left: 2rem;
+    }
 }
 
 #start {
